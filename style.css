@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1E2D3B;
+}
+
+.container{
+    width: 50%;
+    gap: 10px
+}
+
+.cards{
+    width: calc(100% / 3 - 20px);
+    display: flex;
+    flex-direction: column;
+    background-color: #2E3A46;
+    color: white;
+    text-align: center;
+    height: 450px;
+}
+
+.cards img{
+    width: 100%;
+}
+
+.cards p{
+    color: grey;
+}
